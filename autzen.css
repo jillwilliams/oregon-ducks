@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: 'Shadows Into Light';
+    font-family: 'Shadows Into Light';  
 }
 .header p {
     font-size: 2.5rem;
@@ -9,33 +9,27 @@ body {
     display: fixed;
     background-color: green;
     color: white;
-
 }
-
-
-
-
-
-#biker {
-    width: 30rem;
+.autzen img {
+    width: 40rem;
     height: auto;
 }
-#fans {
-    width: 30rem;
+div.gallery {
+    margin: 30px 40px;
+    border:  1px solid green;
+    float: left;
+    width: 180px;
+}
+div.gallery:hover {
+    border:  2px solid yellow;
+}
+div.gallery img {
+    width: 100%;
     height: auto;
 }
-#flag {
-    width: 30rem;
-    height: auto;
-}
-#smoke {
-    width: 30rem;
-    height: auto;
-}
-.table {
-    width: 60%;
-    margin-left: 20%;
-    margin-right: 20%;
+div.description {
+    padding: 15px;
+    text-align: center;
 }
 .content {
     text-align: center;
@@ -44,7 +38,7 @@ body {
     text-decoration: none;
     display: inline-block;
     color: green;
-    font-size: 30px;
+    font-size: 24px;
     border: 2px solid green;
     padding: 14px 70px;
     border-radius: 30px;
